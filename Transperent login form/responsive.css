@@ -1,0 +1,28 @@
+/* container */
+.container {
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    width: 90%;
+    color: black;
+    text-align: center;
+    left: 0px;
+}
+
+.container::before {
+    content: '';
+    background-color: black;
+    position: absolute;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 30px;
+    left: 0px;
+    margin: 10px 6%;
+}
+.btn:active
+ {
+    background-color: black;
+    color: white;
+ }
